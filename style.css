@@ -1,0 +1,66 @@
+.parent{
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+.leftchild img{
+width: 40%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 30%;
+}
+
+.leftchild{
+  border: 5px solid red;
+  margin: 7%;
+  padding: 5%;
+  width: 50%;
+
+}
+.rightchild{
+  border: 5px solid red;
+  margin: 7%;
+  padding: 5%;
+  width: 50%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .parent{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+  }
+  table
+  {
+    width:90%;
+    font-size: 30px;
+  }
+  .table1{
+    overflow-x: auto;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  .leftchild img{
+  width:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30%;
+
+  }
+
+  .leftchild{
+    border: 5px solid red;
+    margin: 7%;
+    padding: 5%;
+    width: 90%;
+  }
+  .rightchild{
+    border: 5px solid red;
+    margin: 7%;
+    padding: 5%;
+    width: 90%;
+  }
+}
