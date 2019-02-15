@@ -1,0 +1,30 @@
+{
+  "basic":{
+    "image":"pic.png",
+    "name":"sai ram",
+    "email":"konesivasai@gmail.com",
+    "number":"0909089",
+    "address":"***"
+  },
+  "career":{
+    "info":"work with",
+    "hr":"educational qualification"
+  },
+  "education":[
+{
+  "institute":"pragati engineering college",
+  "degree":"b.tech",
+  "passout":"2021"
+},
+{
+  "institute":"spvn",
+  "degree":"ssc",
+  "passout":"2015"
+},
+{
+  "institute":"giet",
+  "degree":"diploma",
+  "passout":"2018"
+}
+]
+}
